@@ -7,18 +7,20 @@ body{
 
 }
 .logsmk img{
-    width: 150px;
+    
+    width: 120px
 }
 .opsi img{
     width: 150px;
     margin: 20px;
+    margin-left: 30px;
 
 }
 
 
 
 .containernavbar{
-    width: 90%;
+    width: 50%;
     margin: 250px;
     margin-top: 10px;   
     font-family: "Poppins";
@@ -27,18 +29,19 @@ body{
 
 }
 .navbar{
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
     align-items: center;
-    padding: 20px 300px 20px 0;
+    padding: 20px 300px 20px 100px;
     margin-top: 30px;
     gap: 20px;
+    margin-left: 480px;
 
 }
 .menu ul {
     display: flex;
     list-style-type: none;
-    margin-left: 700px;
+    margin-left: 400px;
  
     
 }
@@ -773,4 +776,18 @@ p{
 .gambar:hover{
     transform: scale(1.05);
     transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 430px) {
+   
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .menu ul{
+
+    
+        flex-direction: column;
+    }
 }
