@@ -1,0 +1,776 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+
+}
+.logsmk img{
+    width: 150px;
+}
+.opsi img{
+    width: 150px;
+    margin: 20px;
+
+}
+
+
+
+.containernavbar{
+    width: 90%;
+    margin: 250px;
+    margin-top: 10px;   
+    font-family: "Poppins";
+    justify-content: center;
+    margin-left: 190px;
+
+}
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 20px 300px 20px 0;
+    margin-top: 30px;
+    gap: 20px;
+
+}
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 700px;
+ 
+    
+}
+.menu ul li a {
+    font-size: 17px;
+    margin: 30px;
+    text-decoration: none;
+    color: #787878;
+   
+   
+    
+}
+.hub b{
+    background-color: #ffaa00;
+    color: rgb(252, 252, 252);
+    border-radius: 3px;
+    display: inline-flex;
+    justify-content: center;
+    height: 28px;
+    padding: 10px 14px 1px;
+    
+}
+
+.menu ul li a:hover{
+   transform: translateZ(5px);
+   color: #ff7300;
+   transition: all 0.4s ease;
+   
+}
+
+
+.menu .hub :hover{
+     transform: translateZ(10px);  
+     color: white;
+     background-color: rgb(0, 18, 121);
+     transition: all 0.4s;
+    
+    
+}
+.pio{
+    font-size: 18px;
+    color: #ff9500;
+    font-weight: 600;
+}
+.kom{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(2, 2, 61);
+    justify-content: center;
+    
+    
+
+}
+.sekol{
+    font-size: 15px
+}
+.list{
+    color: #7a7a7a;
+    font-size: 18px;
+    list-style-type: none;
+    padding: 0px 0px 0px 5px;
+}
+.gambarin{
+    
+    display: flex;
+    gap: 100px;
+   
+}
+.pesat img{
+    width: 555px;
+    height: 460px;
+  
+    display: flex;
+}
+.fa-solid{
+    padding-bottom: 4px;
+    font-size: 22px;
+    margin-right: 15px;
+    color: #ff9500
+    
+}
+.prog{
+    display: flex;
+    gap: 20px;         /* jarak antara tombol */
+    margin-top: 20px;
+}
+.lihat{
+    text-decoration: none;
+    display: flex;
+    border-color: #0c084c;
+    color: #0c084c;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 12px 24px;
+    border-width: 2px;
+    width: 200px; 
+    margin-right: 10px;
+    
+    
+
+}
+.daftar{
+    background-color: #ff8400;
+    
+    color: white;
+    display: flex;
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color: #F1A204;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    border-radius: 5px 5px 5px 5px;
+    
+}
+.fa-brands{
+    margin-right: 10px;
+}
+.spo b{
+  
+    margin-top:20px;
+    font-size: 20px;
+    color: #02014b9c;
+   
+    padding: 10px
+}
+.sat {
+    display: flex;
+    gap: 65px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.opsi .sat1{
+    width: 200px;
+}
+
+.kata{
+    padding-top: 15px;
+    font-size: 25px;
+    
+}
+.why{
+    font-size: 43px;
+    font-weight: 400px;
+    color: #0C084C;
+   margin-left: 320px;
+    width: 850px;
+    
+
+}
+.span{
+    font-weight: 100;
+}
+.fokus{
+    font-size: 20px;
+    font-weight: 100px;
+    line-height: 16px;
+    margin-left: 180px;
+ 
+
+}
+.e-con{
+    display: flex;
+    vertical-align: middle;
+    border: none;
+    box-shadow: none;
+    height: auto;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    margin-left: 155px;
+    padding-right: 180px;
+    padding-top: 40px; 
+    color: #687279;
+   gap: 50px;
+  
+}
+.foto img{
+   width: px;
+   height: 350px;
+   padding: 0  3px;
+   margin-top: 20px;
+}
+    
+.foto3 img{
+   width: 290px;
+   height: 250px;
+   padding: 0  35px;
+}
+.foto2 img{
+     width: 359px;
+   height: 200px;
+   padding: 0  1px ;
+   margin-top: 10px;
+   block-size: 400px;
+}
+.card{
+    justify-content:space-around;
+}
+
+
+.card1{
+    background-color: #f2f5f7;
+    transition: all 0.3s ease;
+    border-radius: 25px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+   
+}
+.card1:hover{
+    box-shadow: 0 8px 30px  rgba(0,0,0,0.15);
+    transform: translateY(-15);
+}
+.card2{
+    background-color: #FCEEEA;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+     box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+.card2:hover{
+    box-shadow: 0 8px 30px  rgba(0,0,0,0.15);
+    transform: translateY(-15);
+}
+.card3{
+    background-color: #f2f5f7;
+    transition: all 0.3s ease;
+    border-radius: 25px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    margin-right: 200px;
+}
+.card3:hover{
+    box-shadow: 0 8px 30px  rgba(0,0,0,0.15);
+    transform: translateY(-15);
+}
+.head{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+
+}
+
+.li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+    padding-top: 40px;
+}
+.fa-solid{
+    font-size: 14px;
+}
+.li1 {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+    padding-top: 40px;
+}
+.li2{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+    padding-top: 40px;
+}
+
+ul li{
+    padding: 4px;
+}
+
+.h1 {
+    text-align: center;
+  
+}
+p{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.jurusan{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15;
+    margin-bottom: 20px;
+    
+}
+ .Tkj{
+    background-color:#f2f5f7;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: "poppins";
+    text-align: left;
+ 
+    font-size: small;
+   
+    
+}
+.Tkj:hover {
+    box-shadow: 0 8px 20px rgb(0,0,0,0.15);
+    transform: scale(1);
+    transition: all 0.4s ease;
+}
+.Dkv{
+    background-color: #f2f5f7;
+     padding: 20px;
+     border-radius: 20px;
+     text-align: center;
+     font-family: "poppins";
+    text-align: left;
+    font-size: small;
+}
+.Dkv:hover {
+     box-shadow: 0 8px 20px rgb(0,0,0,0.15);
+     transition: all 0.4s ease;
+}
+
+.Rpl{
+    background-color: #f2f5f7;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: "poppins";
+    text-align: left;
+    font-size: small;
+}
+.Rpl:hover{
+     box-shadow: 0 8px 20px rgb(0,0,0,0.15);
+     transition: all 0.4s ease;
+}
+
+.judulTkj{
+    background-color: rgb(255, 183, 0);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    margin-top: 1px;
+    color: white;
+    
+
+}
+.judulTkj i{
+    color: #f2f5f7;
+}
+.juduldkv{
+    color: white;
+    background-color: rgb(255, 183, 0);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    margin-top: 1px
+    
+}
+.juduldkv i{
+    color: #f2f5f7;
+}
+    
+.judulRPL{
+    color: white;
+    background-color: rgb(255, 183, 0);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    margin-top: 1px;
+    color: white;
+}
+.judulRPL i{
+    color: #f2f5f7;
+}
+.DownloadSilabus{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 0, 115);
+    padding: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.DownloadSilabusdkv{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 0, 115);
+    padding: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.DownloadSilabusrpl{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 0, 115);
+    padding: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.logotkj{
+    color: white;
+}
+.pla{
+    padding-bottom: 20px;
+}
+.pli{
+    padding-bottom: 20px;
+}
+.plu{
+    padding-bottom: 20px;
+}
+.li-a li{
+    color: #687279;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 2px;
+}
+.li-i li{
+    color: #687279;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 2px;
+}
+.li-u li{
+    color: #687279;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 2px;
+}
+.fa-solid {
+    color: orange;
+    margin-right: 10px;
+    font-size: 20px;
+}.containerIT{
+    margin-top: -150px;
+    margin-left: 100px;
+}
+.karya{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+     gap: 95px;
+}
+.portofoliotkj  h3{
+    color: #0c084c;
+    font-size: 43px;
+    font-weight: 400;
+    padding-left: 39px;
+}
+.vidiotkj iframe {
+    width: 750px;
+    height: 450px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.tkj{
+    font-size: 20px;
+    color: #0C084C;
+    padding-left: 30px;
+    
+}
+.A{
+    color: #687279;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 20px;
+  
+}
+.tutor{
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #0C084C;
+} 
+.kredit{
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #0C084C; 
+    text-align: start;
+  
+}
+
+.Portofoliolain {
+    text-decoration: none;
+    background-color: #0c084c;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align:left;
+    margin-left: 50px;
+  
+}
+.Portofoliolain i{
+    color: white;
+    padding-left: 10px;
+}
+.Modul_TKJ_Container a{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+    width: 500px;
+  }
+  .data_fade{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 50px;
+  }
+  .image {
+    height: 300px;
+    width: 300px
+}
+.porto1, .porto2, .porto3, .porto4 {
+    
+    padding: 20px;
+    text-align:start;
+    font-size: 14px;
+    color: #0C084C;
+    width: 250px;
+    max-width: 250px;
+}
+
+    
+
+.porto2{
+    margin-left: 50px;
+}
+.porto3{
+    margin-left: 50px;
+}
+.porto4{
+    margin-left: 50px;
+}
+.text {
+    text-decoration: none;
+    color: #0C084C;
+    font-weight: 700;
+    font-size: 20px;
+}
+.name_porto     {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0c084c;
+    margin-top: 10px;
+}
+.button1{ 
+    text-decoration: none;
+    background-color: #F1A204;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 12px 24px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+    border-radius: 4px;
+    margin-top: 50px;
+}
+.button2{ 
+    text-decoration: none;
+    background-color: #F1A204;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 12px 24px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+    border-radius: 4px;
+}
+.button3{ 
+    text-decoration: none;
+    background-color: #F1A204;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 12px 24px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+    border-radius: 4px;
+    margin-top: 25px;
+}
+.button4{ 
+    text-decoration: none;
+    background-color: #F1A204;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 12px 24px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+    border-radius: 4px;
+    margin-top: 28px;
+}
+.hasil_karya{
+  
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 95px;
+}
+.portofoliodkv  {
+    color: #0c084c;
+    font-size: 43px;
+    font-weight: 400;
+    padding-left: 39px;
+    display: flex;
+    justify-content: center;
+}
+.faf {
+    color: #0c084c;
+    font-size: 43px;
+    font-weight: 400;
+    padding-left: 3px
+}
+.dkv{
+    font-size: 20px;
+    color: #0C084C;
+    padding-left: 40px;
+    margin-left: 20px;
+}
+
+.vidiodkv iframe {
+    width: 750px;
+    height: 450px;
+    border-radius: 15px;
+    margin-top: 30px;
+   display: flex;
+   justify-content: center;
+}
+.B{
+    color: #687279;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 20px;
+ 
+}
+/* GALLERY */
+
+.titleGallery {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* BUTTONS */
+.filter-buttons {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.filter-btn {
+        border: 0px solid #F2F5F7;
+        background: none;
+        background-color: #F2F5F7;
+        border-radius: 8px;
+        padding: 10px 20px;
+        margin: 5px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        font-weight: 500;
+}
+.filter-btn.active,
+.filter-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease,  0.3s ease; 
+    background-color: #ff8c00;
+    color: white;
+}
+
+/* GALLERY */
+.containerGallery {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.REALCONTAINERGALLERY {
+    max-width: 1100px;
+    margin: auto;
+    transition: all 0.5s ease;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.gambar {
+    width: 23.6%;
+    overflow: hidden;
+    transform: scale(1);
+    transition: all 0.5s ease;
+    margin-bottom: auto;
+}
+
+.gambar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+
+}
+
+.gambar:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
