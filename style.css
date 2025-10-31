@@ -7,11 +7,12 @@ body{
 
 }
 .logsmk img{
-    
-    width: 100px
+    margin-left: 20px;
+    width: 120px
 }
+
 .opsi img{
-    width: 150px;
+    width: 100px;
     margin: 20px;
     margin-left: 30px;
 
@@ -41,7 +42,7 @@ body{
 .menu ul {
     display: flex;
     list-style-type: none;
-    margin-left: 400px;
+    margin-left: 470px;
  
     
 }
@@ -89,11 +90,11 @@ body{
 }
 .kom{
     font-size: 30px;
-   
+   margin-left: -20px;
     text-align: left;
     color: rgb(2, 2, 61);
     justify-content: center;
-    
+    margin-top: 25px;
     
 
 }
@@ -115,7 +116,7 @@ body{
 .pesat img{
     width: 500px;
     height: 400px;
-  
+  margin-top: 20px;
     display: flex;
 }
 .fa-solid{
@@ -169,28 +170,33 @@ body{
     color: #0c084c;
     line-height: 26px;
     white-space: nowrap;
+    margin-left: -10px;
 }
 .sat {
+    width: 100px;
     display: flex;
     gap: 65px;
     justify-content: center;
     margin-top: 50px;
-    margin-right: 200px;
+ 
+    margin-right: 2px;
+    margin-left: 450px;
 }
 .opsi .sat1{
-    width: 200px;
+    width: 180px;
+  
 }
 
 .kata{
     padding-top: 15px;
-    font-size: 25px;
+    font-size: 18px;
     
 }
 .why{
-    font-size: 43px;
-    font-weight: 400px;
+    font-size: 40px;
+    font-weight: 300px;
     color: #0C084C;
-   margin-left: 320px;
+   margin-left: 90px;
     width: 850px;
     
 
@@ -199,11 +205,14 @@ body{
     font-weight: 100;
 }
 .fokus{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100px;
     line-height: 16px;
-    margin-left: 180px;
- 
+    margin-left: -20px;
+   white-space: nowrap;
+   color: #0C084C;
+   margin-top: 20px;
+   
 
 }
 .e-con{
@@ -216,17 +225,17 @@ body{
 .card{
     display: flex;
     justify-content: center;
-    margin-left: 155px;
+    margin-left: 20px;
     padding-right: 180px;
     padding-top: 40px; 
     color: #687279;
    gap: 50px;
-  
+  margin-top: 25px;
 }
 .foto img{
-   width: px;
-   height: 350px;
-   padding: 0  3px;
+   width: 290px;
+   height: 300px;
+   padding: 0  35px;
    margin-top: 20px;
 }
     
@@ -252,7 +261,7 @@ body{
     transition: all 0.3s ease;
     border-radius: 25px;
     box-shadow:0 4px 10px rgba(0,0,0,0.15);
-   
+   margin-left: -120px;
 }
 .card1:hover{
     box-shadow: 0 8px 30px  rgba(0,0,0,0.15);
@@ -273,7 +282,7 @@ body{
     transition: all 0.3s ease;
     border-radius: 25px;
     box-shadow:0 4px 10px rgba(0,0,0,0.15);
-    margin-right: 200px;
+    margin-right: 100px;
 }
 .card3:hover{
     box-shadow: 0 8px 30px  rgba(0,0,0,0.15);
@@ -491,7 +500,7 @@ p{
     font-size: 20px;
 }.containerIT{
     margin-top: -150px;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 .karya{
     padding: 40px;
@@ -566,12 +575,12 @@ p{
   .data_fade{
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 1px;
     padding-bottom: 50px;
   }
   .image {
-    height: 300px;
-    width: 300px
+    height: 200px;
+    width: 200px
 }
 .porto1, .porto2, .porto3, .porto4 {
     
@@ -612,13 +621,13 @@ p{
     width: 100%;
     text-align: center;
     color: white;
-    padding: 12px 24px;
+    padding: 7px 19px 10px 1px;
     display: inline-block;
     font-size: 20px;
     font-weight: 600;
     line-height: 16px;
     border-radius: 4px;
-    margin-top: 50px;
+    margin-top: 49px;
 }
 .button2{ 
     text-decoration: none;
@@ -626,7 +635,7 @@ p{
     width: 100%;
     text-align: center;
     color: white;
-    padding: 12px 24px;
+   padding: 7px 19px 10px 1px;
     display: inline-block;
     font-size: 20px;
     font-weight: 600;
@@ -639,7 +648,7 @@ p{
     width: 100%;
     text-align: center;
     color: white;
-    padding: 12px 24px;
+   padding: 7px 19px 10px 1px;
     display: inline-block;
     font-size: 20px;
     font-weight: 600;
@@ -653,7 +662,7 @@ p{
     width: 100%;
     text-align: center;
     color: white;
-    padding: 12px 24px;
+    padding: 7px 19px 10px 1px;
     display: inline-block;
     font-size: 20px;
     font-weight: 600;
