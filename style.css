@@ -8,7 +8,7 @@ body{
 }
 .logsmk img{
     
-    width: 120px
+    width: 100px
 }
 .opsi img{
     width: 150px;
@@ -20,7 +20,7 @@ body{
 
 
 .containernavbar{
-    width: 50%;
+    width: 30%;
     margin: 250px;
     margin-top: 10px;   
     font-family: "Poppins";
@@ -32,10 +32,10 @@ body{
     justify-content: center;
     display: flex;
     align-items: center;
-    padding: 20px 300px 20px 100px;
+  
     margin-top: 30px;
     gap: 20px;
-    margin-left: 480px;
+    margin-left: 500px;
 
 }
 .menu ul {
@@ -46,7 +46,7 @@ body{
     
 }
 .menu ul li a {
-    font-size: 17px;
+    font-size: 15px;
     margin: 30px;
     text-decoration: none;
     color: #787878;
@@ -62,7 +62,8 @@ body{
     justify-content: center;
     height: 28px;
     padding: 10px 14px 1px;
-    
+    margin-bottom: 10px;
+    transition: all 0.4s ease;
 }
 
 .menu ul li a:hover{
@@ -74,7 +75,7 @@ body{
 
 
 .menu .hub :hover{
-     transform: translateZ(10px);  
+     transform: translateZ(11px);  
      color: white;
      background-color: rgb(0, 18, 121);
      transition: all 0.4s;
@@ -82,13 +83,13 @@ body{
     
 }
 .pio{
-    font-size: 18px;
+    font-size: 15px;
     color: #ff9500;
     font-weight: 600;
 }
 .kom{
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 30px;
+   
     text-align: left;
     color: rgb(2, 2, 61);
     justify-content: center;
@@ -97,13 +98,13 @@ body{
 
 }
 .sekol{
-    font-size: 15px
+    font-size: 12px
 }
 .list{
     color: #7a7a7a;
-    font-size: 18px;
+    font-size: 14px;
     list-style-type: none;
-    padding: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 3px;
 }
 .gambarin{
     
@@ -112,8 +113,8 @@ body{
    
 }
 .pesat img{
-    width: 555px;
-    height: 460px;
+    width: 500px;
+    height: 400px;
   
     display: flex;
 }
@@ -128,6 +129,7 @@ body{
     display: flex;
     gap: 20px;         /* jarak antara tombol */
     margin-top: 20px;
+    
 }
 .lihat{
     text-decoration: none;
@@ -137,38 +139,36 @@ body{
     border-style: solid;
     border-radius: 5px;
     padding: 12px 24px;
-    border-width: 2px;
+    border-width: 1px;
     width: 200px; 
-    margin-right: 10px;
-    
-    
-
+    font-weight: 700;
 }
-.daftar{
+.daftar {
     background-color: #ff8400;
-    
+
     color: white;
-    display: flex;
+    display: inline-flex;
     text-decoration: none;
     padding: 12px 24px;
     background-color: #F1A204;
     font-family: "Poppins", Sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
-    line-height: 16px;
+    white-space: nowrap;
     border-radius: 5px 5px 5px 5px;
     
 }
+
 .fa-brands{
     margin-right: 10px;
 }
-.spo b{
-  
+.spo h3 b{
+    display: flex;
     margin-top:20px;
-    font-size: 20px;
-    color: #02014b9c;
-   
-    padding: 10px
+    font-size: 16px;
+    color: #0c084c;
+    line-height: 26px;
+    white-space: nowrap;
 }
 .sat {
     display: flex;
