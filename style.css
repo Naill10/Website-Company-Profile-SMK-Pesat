@@ -820,6 +820,47 @@ p{
     margin-top: 30px;
 }
 
+.HasilRPL{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+    border: 5px;
+}
+ .picturerpl img{
+    width: 250px;
+    height: 350px;
+}
+.lane{
+    color: #0C084C;
+    font-size: 20px;
+}
+.fontrpl{
+    font-size: 13px;
+    color: #0C084C;
+}
+.karyarpl{
+    font-size: 13px;
+    color: #0C084C;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.btn_rpl {
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #ffa600;
+    text-align: center;
+    padding: 12px 50px;
+    font-size: 12px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.buttonRPL .fa-solid {
+    color: white;
+    font-size: 12px;
+}
+
 @media screen and (max-width: 430px) {
    
     .navbar{
