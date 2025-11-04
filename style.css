@@ -860,6 +860,54 @@ p{
     color: white;
     font-size: 12px;
 }
+.container_sertifikasi{
+    margin-top: 90px;
+    margin-left: 100px;
+}
+
+.sertifikat{
+    display: flex;
+    
+}
+.header{
+    font-size: 43px;
+    color: #0C084C;
+    font-weight: 400;
+}
+.rangkaian{
+    font-size: 16px;
+    color: #0C084C;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -20px;
+}
+.picture_mid img{
+    width: 450px;
+    height: 420px;
+   margin-top: 50px;
+   margin-right: 100px;
+}
+.bgn_kanan_atas{
+    margin-top: 50px;
+    font-size: 14px;
+    margin-left: 100px;
+    color: #0C084C;
+}
+.bgn_kanan_bawah{
+    margin-top: 20px;
+}
+.bgn_kiri{
+    margin-top: 50px;
+    font-size: 14px;
+    color: #0C084C;
+    margin-right: 100px;
+}
+.line {
+    list-style-type: none;
+    text-decoration: none;
+    color: #7a7a7a;
+    margin-top: 20px;
+}
 
 @media screen and (max-width: 430px) {
    
