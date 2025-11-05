@@ -873,6 +873,7 @@ p{
     font-size: 43px;
     color: #0C084C;
     font-weight: 400;
+    text-align: center;
 }
 .rangkaian{
     font-size: 16px;
@@ -908,7 +909,114 @@ p{
     color: #7a7a7a;
     margin-top: 20px;
 }
+.Daftar_right {
+  border-radius: 25px;
+  padding: 70px 30px;
+  flex: 1;
+  min-width: 300px;
+  max-width: 350px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #F1A204;
+  text-align: left;
+  margin-top: 40px;
+}
+.Raih{
+    margin-top: -10px;
+    color: #0C084C;
+}
 
+.Daftar_title1 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.Daftar_description {
+  color: white;
+  padding-bottom: 30px;
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.Daftar_whatsapp {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  border-radius: 5px;
+  margin-left: 60px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.Daftar_whatsapp:hover {
+  background-color: #343434;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.Daftar_whatsapp i {
+  padding: 3px;
+}
+
+.Daftar_left {
+  border-radius: 20px;
+}
+
+.Daftar_location {
+  border-radius: 20px;
+}
+
+.Daftar_title {
+  color: #000000;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.Daftar_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1500px;
+  width: 100%;
+  margin-top: -10px;
+}
+
+.Daftar {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  font-size: small;
+  margin-top: 50px;
+}
+
+.Daftar_right:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.30);
+}
+
+.titledaftar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #0C084C;
+ 
+}
+.footer {
+    background-color: #f9fafa;
+    padding: 5px;
+    text-align: left;
+    max-width: 1500px;
+    margin-top: 100px;
+}
+.footer p{
+   color: #797f88;
+   font-size: smaller;
+   margin-right: 700px;
+}
 @media screen and (max-width: 430px) {
    
     .navbar{
